@@ -3,8 +3,7 @@ import TicTacToe from './TicTacToe';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Tic-Tac-Toe Game</h1>
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-teal-100 flex flex-col justify-center">
       <TicTacToe />
     </div>
   );
